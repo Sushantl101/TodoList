@@ -1,0 +1,93 @@
+body{
+    background-color: #755caa;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  input[type="text"] {
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #aaa;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3f1755;
+    color: #e24ece;
+    cursor: pointer;
+  }
+  
+
+
+  h1 {
+    font: 600;
+    font-size: 48px;
+    margin-top: 40px;
+    color: #e24ece;
+    background-color: #3f1755;
+    border-radius: 7%;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+.box{
+  width: 700px;
+  min-height: 500px;
+  background-color: #3f1755;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#item{
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: block;
+  font-weight: bold;
+  box-shadow: 0px 0px 2px gray;
+}
+
+
+  #todoList{
+    margin-top: 20px;
+    list-style: none;
+  }
+  #todoList li {
+    background-color: #2c2929;
+    color: #f5f0f0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #aaa;
+    position: relative;
+    user-select: none;
+  }
+#todoList li i{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.done{
+  text-decoration: line-through;
+  color: black;
+  background-color: #755caa !important;
+}
+  
+ 
